@@ -7,24 +7,23 @@ html, body {
     height: 100%;
 }
 
-footer {
-    background-color: white;
-    background-image: url("images_footer/footer_background_part_one.png");
+#footer_part {
+    background-image: url("images_footer/footer_background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: calc(100% - 500px);
-    width: 1366px;
-    margin: 0;
-    bottom: 0;
-    position: absolute;
+    height: 650px;
+    border: none !important;
+    position: relative;
+    width: 100%;
 }
-
 #footer_content {
     display: flex;
     justify-content: space-around;
+    /* border-style: solid; */
+    border-right: 6px red solid;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 350px;
 }
 
 #footer_text {
@@ -34,23 +33,27 @@ footer {
 }
 
 #footer_social_medias {
+    text-align: right;
     display: inline-block;
     color: rgb(151, 147, 147);
+    border: 6px red solid;
+    width: 100px;
 }
 
 #footer_rights {
-    color: rgb(151, 147, 147);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
-    margin: 0;
+    color: white;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    position: absolute;
 }
 
 #before_footer_content {
-    background-image: url("images_footer/footer_background_part.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    height: 500px;
-    width: auto;
-    margin: 0;
+    min-height: 100%;
 }
 
