@@ -9,13 +9,31 @@
   
   .main-header {
     position: relative;
-    /* background-color: #191a1d; */
-    background-image: url("images/header_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #191a1d;
+    background: linear-gradient(
+        to bottom,
+        #191a1d 60%,
+        rgba(25, 26, 29, 0.9905),
+        rgba(25, 26, 29, 0.99),
+        rgba(25, 26, 29, 0.98),
+        rgba(25, 26, 29, 0.97),
+        rgba(25, 26, 29, 0.96),
+        rgba(25, 26, 29, 0.95),
+        rgba(25, 26, 29, 0.94),
+        rgba(25, 26, 29, 0.93),
+        rgba(25, 26, 29, 0.92),
+        rgba(25, 26, 29, 0.91),
+        rgba(25, 26, 29, 0.9),
+        rgba(25, 26, 29, 0.89),
+        rgba(25, 26, 29, 0.88),
+        rgba(25, 26, 29, 0.87),
+        rgba(25, 26, 29, 0.86),
+        rgba(25, 26, 29, 0.85),
+        rgba(25, 26, 29, 0.84),
+        transparent
+      ),
+      border-box;
     width: 100%;
-    height: 650px;
     text-align: center;
   }
   
@@ -125,7 +143,7 @@
   }
   
   .main-info {
-    background-color: #191a1d;
+    /* background-color: #191a1d; */
     width: 100%;
     margin: 100px 0;
     text-align: center;
@@ -170,24 +188,64 @@
     text-align: right;
   }
   
-  /*
-  .main-nav__item--cta a {
-    color: white;
-    background: #ff1b68;
-    padding: 8px 10px;
-    border-radius: 8px;
+  .skills-box {
+    width: 100%;
+    margin: 50px 0;
   }
-  .main-nav__item--cta a:hover,
-  .main-nav__item--cta a:active {
-    color: #ff1b68;
-    background: white;
-    border: none;
-  } */
+  
+  .skills-box_items {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .skills-box_item {
+    padding-top: 10px;
+    display: inline-block;
+    width: 30%;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 5%;
+    background: rgb(240, 240, 240);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+  .skills-box_item img {
+    width: 70px;
+  }
+  
+  .skill-title {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  .skills_description {
+    font-size: 20px;
+  }
+  
+  .skills_moreInfo img {
+    width: 30px;
+    cursor: pointer;
+    margin: 15px;
+  }
+  
+  .skills_moreInfo ul {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .skills_moreInfo_item {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+  }
   
   /*--------- FOOTER ----------*/
 
   footer {
-    background-image: url("images/footer_background.png");
+    /* background-image: url("images/footer_background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -195,13 +253,41 @@
     border: none;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0; */
+    position: relative;
+    background-color: #191a1d;
+    background: linear-gradient(
+        to top,
+        #191a1d 60%,
+        rgba(25, 26, 29, 0.9905),
+        rgba(25, 26, 29, 0.99),
+        rgba(25, 26, 29, 0.98),
+        rgba(25, 26, 29, 0.97),
+        rgba(25, 26, 29, 0.96),
+        rgba(25, 26, 29, 0.95),
+        rgba(25, 26, 29, 0.94),
+        rgba(25, 26, 29, 0.93),
+        rgba(25, 26, 29, 0.92),
+        rgba(25, 26, 29, 0.91),
+        rgba(25, 26, 29, 0.9),
+        rgba(25, 26, 29, 0.89),
+        rgba(25, 26, 29, 0.88),
+        rgba(25, 26, 29, 0.87),
+        rgba(25, 26, 29, 0.86),
+        rgba(25, 26, 29, 0.85),
+        rgba(25, 26, 29, 0.84),
+        transparent
+      ),
+      border-box;
+    width: 100%;
+    height: 300px;
+    text-align: center;
   }
   
   .footer_content {
     width: 100%;
     margin: 0;
-    padding-top: 400px;
+    padding-top: 80px;
   }
   
   .footer_text {
@@ -222,8 +308,22 @@
     list-style: none;
   }
   
-  .footer_social_medias img {
-    border-radius: 12px;
+  .footer_social_medias .instagram {
+    border-radius: 12.5px;
+    background: 100% rgba(255, 255, 255, 0.3);
+    width: 42px;
+    margin: 10px 0;
+  }
+
+  .footer_social_medias .linkedin {
+    border-radius: 9px;
+    background: 100% rgba(255, 255, 255, 0.3);
+    width: 40px;
+    margin: 10px 0;
+  }
+
+  .footer_social_medias .github {
+    border-radius: 9px;
     background: 100% rgba(255, 255, 255, 0.3);
     width: 40px;
     margin: 10px 0;

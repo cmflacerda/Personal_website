@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="1072.132"
+   height="72.668144"
+   viewBox="0 0 1072.132 72.668146"
+   sodipodi:docname="footer_backgroundSVG.png.svg"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   inkscape:export-filename="/home/andre/Programming/PersonalPortfolio/images/footer_background2.png"
+   inkscape:export-xdpi="343.83829"
+   inkscape:export-ydpi="343.83829"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1004">
+      <rect
+         style="opacity:0.73871;fill:#191a1d"
+         id="rect1006"
+         width="1072.132"
+         height="404.56128"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.7229132"
+     inkscape:cx="632.64941"
+     inkscape:cy="71.390713"
+     inkscape:window-width="2516"
+     inkscape:window-height="1025"
+     inkscape:window-x="44"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="floor"
+     transform="translate(-0.23005599,53.465649)" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g8"
+     transform="translate(-0.23005599,53.465649)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1"
+       id="rect1396"
+       width="1072.132"
+       height="72.668144"
+       x="0.23005599"
+       y="-53.465649"
+       inkscape:export-filename="/home/andre/Programming/PersonalPortfolio/images/footer_background2.png"
+       inkscape:export-xdpi="447.70609"
+       inkscape:export-ydpi="447.70609" />
+    <path
+       style="fill:#191a1d;fill-opacity:1;stroke-width:0.999881"
+       d="M 0,257 V 0 l 16.75,17.197346 c 17.398553,17.863219 33.386241,32.455288 48.671898,44.423163 39.710812,31.091506 92.451002,60.746171 134.102812,75.403101 23.3735,8.22494 84.70903,24.78902 114.97529,31.04986 60.92745,12.60339 160.81789,23.14966 274.5,28.98127 86.89353,4.45743 140.70638,5.33027 317.75,5.15386 L 1072,202.04394 V 358.02197 514 H 536 0 Z"
+       id="path863"
+       clip-path="url(#clipPath1004)"
+       transform="matrix(1,0,0,0.1796221,0.23005599,-53.465649)"
+       inkscape:export-filename="/home/andre/Programming/PersonalPortfolio/images/footer_background2.png"
+       inkscape:export-xdpi="447.70609"
+       inkscape:export-ydpi="447.70609" />
+  </g>
+</svg>
