@@ -8,6 +8,7 @@
     <title>Christian Lacerda</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel='stylesheet' href="style.css">
+    <script src="main.js"></script>
   </head>
 
   <body>
@@ -65,9 +66,9 @@
             I like to code things from scratch, and enjoy bringing ideas to life in the browser.
           </p>
           <div class='skills_moreInfo'>
-            <img src='./images/plus.png' class='active'>
-            <img src='./images/minus.png'>
-            <ul>
+            <img src='./images/plus.png' class='collapsible1 active' onClick='collapse(coll1)'>
+            <img src='./images/minus.png' class='collapsible1' onClick='collapse(coll1)'>
+            <ul class='collapsible1'>
               <li class='skills_moreInfo_item'>
                 Atom
               </li>
@@ -95,9 +96,9 @@
             I like to code things from scratch, and enjoy bringing ideas to life in the browser.
           </p>
           <div class='skills_moreInfo'>
-            <img src='./images/plus.png' class='active'>
-            <img src='./images/minus.png'>
-            <ul>
+            <img src='./images/plus.png' class='collapsible2 active' onClick='collapse(coll2)'>
+            <img src='./images/minus.png' class='collapsible2' onClick='collapse(coll2)'>
+            <ul class='collapsible2'>
               <li class='skills_moreInfo_item'>
                 Atom
               </li>
@@ -121,32 +122,46 @@
     </div>
 
     <div class='life-background'>
-      <h1>TESTE</h1>
-      <p style="text-align: center; padding: 60px 70px;">
-        A broad spectrum of issues have to be addressed in order to tackle the problem of a safe
-         and dependable physicalHuman–Robot Interaction (pHRI). In the immediate future,
-         metrics related to safety and dependability have to be foundin order to successfully
-          introduce robots in everyday enviornments. While there are certainly also ‘‘cognitive’’ 
-          issuesinvolved, due to the human perception of the robot (and vice versa), and other objective 
-          metrics related to fault detectionand isolation, our discussion focuses on the peculiar aspects of 
-          ‘‘physical’’ interaction with robots. In particular, safety anddependability are the underlying evaluation 
-          criteria for mechanical design, actuation, and control architectures. Mechan-ical and control issues are 
-          discussed with emphasis on techniques that provide safety in an intrinsic way or by means ofcontrol components.
-           Attention is devoted to dependability, mainly related to sensors, control architectures, and fault han-dling and 
-           tolerance. Suggestions are provided to draft metrics for evaluating safety and dependability in pHRI, 
-           and ref-erences to the works of the scientific groups involved in the pHRI research complete the study. 
-           The present atlas is a resultof the EURON perspective research project ‘‘Physical Human–Robot Interaction 
-           in anthropic DOMains (PHRIDOM)’’,aimed at charting the new territory of pHRI, 
-           and constitutes the scientific basis for the ongoing STReP project ‘‘PhysicalHuman–Robot Interaction: 
-           depENDability and Safety (PHRIENDS)’’, aimed at developing key components for the nextgeneration of robots,
-            designed to share their environment with people.Ó2007 Elsevier Ltd. All rights reserved.Keyword:Physical 
-            human–robot interaction in anthropic domains.
-      </p>
-      <br>
-      <p style="text-align: right; padding: 0 75px;">
-          Source: An atlas of physical human–robot interaction <br>
-          Authors: Agostino De Santis, Bruno Siciliano, Alessandro De Luca, Antonio Bicchi
-      </p>
+      <div class="life-background_item">
+        <div class="life-background_title">
+          <h2><strong>Title</strong></h2>
+        </div>
+        <div class='life-background_main-info'>
+          <img src='./images/eesc_fachada.jpg'>
+          <div class='life-background_main-text'>
+            <h3>Sao Carlos School of Engineering - University of Sao Paulo</h3>
+            <h3>Sao Carlos, SP - Brazil</h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqueSed ut perspiciatis
+              unde omnis iste natus error sit voluptatem accusantium doloremqueSed ut perspiciatis unde omnis iste natus
+              error sit voluptatem accusantium doloremqueSed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremqueSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              doloremqueSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="life-background_item">
+        <div class="life-background_title">
+          <h2><strong>Title</strong></h2>
+        </div>
+        <div class='life-background_main-info'>
+          <img src='./images/eesc_fachada.jpg'>
+          <div class='life-background_main-text'>
+            <h3>Sao Carlos School of Engineering - University of Sao Paulo</h3>
+            <h3>Sao Carlos, SP - Brazil</h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqueSed ut perspiciatis
+              unde omnis iste natus error sit voluptatem accusantium doloremqueSed ut perspiciatis unde omnis iste natus
+              error sit voluptatem accusantium doloremqueSed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremqueSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              doloremqueSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            </p>
+          </div>
+        </div>
+
+      </div>
     </div>
 
     <footer class="footer_part">
