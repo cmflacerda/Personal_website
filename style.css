@@ -264,6 +264,83 @@
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
+
+  .projects {
+    margin-top: 5.5%;
+  }
+  
+  .project-line {
+    margin-top: 1.5%;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+  }
+  
+  .project-box {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    margin: 0 8px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 7px;
+    background-image: url("./images/dummyProjects.jpeg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    /* border: 2px solid red; */
+  }
+  
+  .project-box:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
+  
+  /* .project-img {
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    transform: scale(1);
+    transition: 0.3s ease;
+  } */
+  
+  .project-info {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+    border-radius: 7px;
+    background-color: rgb(25, 26, 29);
+  }
+  
+  .project-info:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+  
+  .project-box .project-info-text {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    height: 50px;
+    color: #e2e2e2;
+  }
+  
+  .projects:after {
+    background: rgb(82, 82, 82);
+    height: 2px;
+    text-align: center;
+    display: block;
+    content: "";
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
   
   .life-background_item {
     text-align: center;
